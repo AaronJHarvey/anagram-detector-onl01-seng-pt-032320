@@ -6,7 +6,7 @@ def initialize(word)
 end
 
 def match(array)
-array.select{|x| x.split("").sort == @word.split("").sort}
+array.select{|x| x.split("").sort == @word}
 
 end
 
