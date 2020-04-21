@@ -6,6 +6,8 @@ def initialize(word)
 end
 
 def match(array)
+array.select{
+
 end
 
 end
