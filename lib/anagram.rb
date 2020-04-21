@@ -6,7 +6,7 @@ def initialize(word)
 end
 
 def match(array)
-array.select{
+array.select{|x| x.split("").
 
 end
 
